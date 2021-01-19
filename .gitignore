@@ -6,3 +6,13 @@
 /src/Tale/obj
 /src/Tale.Api/obj
 /src/Tale.Core/obj
+/samples/Test/ConsoleApp1/obj
+/samples/Test/ConsoleApp1/bin/Debug/net5.0
+/samples/Test/ConsoleApp1/.vs/ConsoleApp1/DesignTimeBuild
+/samples/App1/bin/Debug
+/samples/App1/obj
+/samples/.vs/Samples/v16
+/src/.vs/Tale/v16
+/src/Tale.Core/bin/Debug
+/src/Tale.Api/bin/Debug
+/src/Tale/bin/Debug

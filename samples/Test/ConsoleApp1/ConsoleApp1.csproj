@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tale" Version="1.0.0.2" />
+    <PackageReference Include="Tale.Api" Version="1.0.0.2" />
+    <PackageReference Include="Tale.Core" Version="1.0.0.2" />
+  </ItemGroup>
+
+</Project>

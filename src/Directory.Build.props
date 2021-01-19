@@ -8,6 +8,7 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
     
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Version>1.0.0.2</Version>
         <PackageTags>Tale Game Engine</PackageTags>
         <PackageReleaseNotes>Cross platform game engine</PackageReleaseNotes>
         <Company>Tale</Company>
