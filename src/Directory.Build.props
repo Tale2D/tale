@@ -1,0 +1,30 @@
+<Project>
+	<PropertyGroup>
+        <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+        <RepositoryRootDirectory>$(MSBuildThisFileDirectory)</RepositoryRootDirectory>
+        <BinDir>$(RepositoryRootDirectory)Bin</BinDir>
+        <BaseOutputPath Condition=" '$(BaseOutputPath)' == '' ">$(BinDir)\$(MSBuildProjectName)\</BaseOutputPath>
+        <PackageOutputPath>$(BinDir)\$(Configuration)\Packages</PackageOutputPath>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageTags>Tale Game Engine</PackageTags>
+        <PackageReleaseNotes>Cross platform game engine</PackageReleaseNotes>
+        <Company>Tale</Company>
+        <Authors>Tale</Authors>
+        <Copyright>Copyright © 2021 Tale.</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+        <PackageProjectUrl>https://github.com/Tale2D/tale</PackageProjectUrl>
+        <PackageIcon>tale_logo.png</PackageIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+    <None Include="..\tale_logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all"/>
+  </ItemGroup>
+
+</Project>
