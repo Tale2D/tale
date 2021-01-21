@@ -9,7 +9,7 @@ namespace ConsoleApp1
         {
             var core = new Core();
             //Console.WriteLine("Hello World!");
-            core.CWindows();
+            core.CWindows(Veldrid.GraphicsBackend.Vulkan);
         }
     }
 }

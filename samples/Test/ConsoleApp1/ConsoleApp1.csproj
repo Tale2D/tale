@@ -6,9 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Tale" Version="1.0.0.2" />
-    <PackageReference Include="Tale.Api" Version="1.0.0.2" />
-    <PackageReference Include="Tale.Core" Version="1.0.0.2" />
+    <PackageReference Include="Tale" Version="1.0.0.4" />
+    <PackageReference Include="Tale.Api" Version="1.0.0.4" />
+    <PackageReference Include="Tale.Core" Version="1.0.0.4" />
   </ItemGroup>
 
 </Project>

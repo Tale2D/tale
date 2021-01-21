@@ -16,3 +16,11 @@
 /src/Tale.Core/bin/Debug
 /src/Tale.Api/bin/Debug
 /src/Tale/bin/Debug
+/src/.vs/Tale/DesignTimeBuild
+/samples/SampleBase/obj
+/samples/SampleBase/bin/Debug/netstandard2.0
+/samples/AssetPrimitives/bin/Debug/netstandard2.0
+/samples/AssetPrimitives/obj
+/samples/AndroidBase/bin/Debug
+/samples/AndroidBase/obj
+/samples/.vs/Samples/DesignTimeBuild
