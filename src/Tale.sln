@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Engine", "01-Engine", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Editer", "02-Editer", "{D209C454-8C01-4A3A-A31C-BB2F796F3EC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tale.Interface", "Tale.Interface\Tale.Interface.csproj", "{813121B3-B7BE-4DDA-8025-DD02CCAC23F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{A9B05483-4531-4450-A69F-20C71082D74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B05483-4531-4450-A69F-20C71082D74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B05483-4531-4450-A69F-20C71082D74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813121B3-B7BE-4DDA-8025-DD02CCAC23F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813121B3-B7BE-4DDA-8025-DD02CCAC23F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813121B3-B7BE-4DDA-8025-DD02CCAC23F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813121B3-B7BE-4DDA-8025-DD02CCAC23F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{7F6EB6AC-1AE1-4184-B5CA-7D26CDE9EDED} = {EB8D16A1-45A6-46ED-AD7E-796EAC0E850B}
 		{A2642AF1-CED9-42A4-9739-B9874F847D0B} = {EB8D16A1-45A6-46ED-AD7E-796EAC0E850B}
 		{A9B05483-4531-4450-A69F-20C71082D74A} = {EB8D16A1-45A6-46ED-AD7E-796EAC0E850B}
+		{813121B3-B7BE-4DDA-8025-DD02CCAC23F4} = {EB8D16A1-45A6-46ED-AD7E-796EAC0E850B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4140ED2E-505D-42FC-B712-48C5D3EF5B0E}

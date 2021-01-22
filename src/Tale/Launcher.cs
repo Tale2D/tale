@@ -1,4 +1,5 @@
 ﻿using System;
+using Tale.Interface;
 
 namespace Tale
 {
@@ -10,7 +11,8 @@ namespace Tale
         /// <summary>
         /// 启动 Tale 引擎(仅桌面平台)
         /// </summary>
-        public static void Run()
+        /// <param name="application">提供您自己的 IApplication 接口实现</param>
+        public static void Run(IApplication application)
         {
         
         }
