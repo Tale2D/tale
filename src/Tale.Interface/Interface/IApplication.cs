@@ -8,7 +8,7 @@ namespace Tale.Interface
     /// <summary>
     /// Tale应用
     /// </summary>
-    public interface IApplication
+    public abstract class IApplication
     {
         /// <summary>
         /// 游戏窗体
@@ -33,24 +33,24 @@ namespace Tale.Interface
         /// <param name="gdevice">渲染设备</param>
         /// <param name="factory">资源工厂</param>
         /// <param name="swap">主交换链</param>
-        void OnGraphicsDeviceCreated(GraphicsDevice gdevice, ResourceFactory factory, Swapchain swap);
+        public abstract void OnGraphicsDeviceCreated(GraphicsDevice gdevice, ResourceFactory factory, Swapchain swap);
 
         /// <summary>
         /// 引擎渲染设备释放完成
         /// </summary>
-        void OnGraphicsDeviceDestroyed();
+        public abstract void OnGraphicsDeviceDestroyed();
 
         /// <summary>
         /// 创建资源
         /// </summary>
         /// <param name="factory">资源工厂</param>
-        void CreateResources(ResourceFactory factory);
+        protected abstract void CreateResources(ResourceFactory factory);
 
         /// <summary>
         /// 创建交换链资源
         /// </summary>
         /// <param name="factory">资源工厂</param>
-        void CreateSwapchainResources(ResourceFactory factory);
+        protected abstract void CreateSwapchainResources(ResourceFactory factory);
 
     }
 }
