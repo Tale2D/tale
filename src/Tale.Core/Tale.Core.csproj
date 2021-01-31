@@ -11,6 +11,18 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Fonts\SourceHanSans-Normal.otf" />
+    <None Remove="Assets\Shaders\sprite.frag.spv" />
+    <None Remove="Assets\Shaders\sprite.vert.spv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\Fonts\SourceHanSans-Normal.otf" />
+    <EmbeddedResource Include="Assets\Shaders\sprite.frag.spv" />
+    <EmbeddedResource Include="Assets\Shaders\sprite.vert.spv" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Veldrid" Version="4.8.0" />
     <PackageReference Include="Veldrid.SPIRV" Version="1.0.13" />
     <PackageReference Include="Veldrid.StartupUtilities" Version="4.8.0" />
@@ -19,5 +31,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Tale.Interface\Tale.Interface.csproj" />
   </ItemGroup>
+
 
 </Project>
